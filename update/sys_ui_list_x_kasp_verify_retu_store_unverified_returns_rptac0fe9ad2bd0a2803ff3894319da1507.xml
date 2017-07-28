@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_kasp_verify_retu_store_unverified_returns" version="2" view="RPTac0fe9ad2bd0a2803ff3894319da1507">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_kasp_verify_retu_store_unverified_returns" element="NULL" name="x_kasp_verify_retu_store_unverified_returns" parent="NULL" relationship="NULL" sys_domain="global" view="e00fe9ad2bd0a2803ff3894319da1508">e062c5fd2b58a2803ff3894319da1593</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2016-06-29 11:26:38</sys_created_on>
+            <sys_id>a462c5fd2b58a2803ff3894319da1593</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2016-06-29 11:26:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_reference_1</element>
+            <list_id display_value="x_kasp_verify_retu_store_unverified_returns" element="NULL" name="x_kasp_verify_retu_store_unverified_returns" parent="NULL" relationship="NULL" sys_domain="global" view="e00fe9ad2bd0a2803ff3894319da1508">e062c5fd2b58a2803ff3894319da1593</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2016-06-29 11:26:38</sys_created_on>
+            <sys_id>e462c5fd2b58a2803ff3894319da1593</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2016-06-29 11:26:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_string_3</element>
+            <list_id display_value="x_kasp_verify_retu_store_unverified_returns" element="NULL" name="x_kasp_verify_retu_store_unverified_returns" parent="NULL" relationship="NULL" sys_domain="global" view="e00fe9ad2bd0a2803ff3894319da1508">e062c5fd2b58a2803ff3894319da1593</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2016-06-29 11:26:38</sys_created_on>
+            <sys_id>2862c5fd2b58a2803ff3894319da1593</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2016-06-29 11:26:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_string_5</element>
+            <list_id display_value="x_kasp_verify_retu_store_unverified_returns" element="NULL" name="x_kasp_verify_retu_store_unverified_returns" parent="NULL" relationship="NULL" sys_domain="global" view="e00fe9ad2bd0a2803ff3894319da1508">e062c5fd2b58a2803ff3894319da1593</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2016-06-29 11:26:38</sys_created_on>
+            <sys_id>6862c5fd2b58a2803ff3894319da1593</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2016-06-29 11:26:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_glide_date_4</element>
+            <list_id display_value="x_kasp_verify_retu_store_unverified_returns" element="NULL" name="x_kasp_verify_retu_store_unverified_returns" parent="NULL" relationship="NULL" sys_domain="global" view="e00fe9ad2bd0a2803ff3894319da1508">e062c5fd2b58a2803ff3894319da1593</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2016-06-29 11:26:38</sys_created_on>
+            <sys_id>a862c5fd2b58a2803ff3894319da1593</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2016-06-29 11:26:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_glide_date_8</element>
+            <list_id display_value="x_kasp_verify_retu_store_unverified_returns" element="NULL" name="x_kasp_verify_retu_store_unverified_returns" parent="NULL" relationship="NULL" sys_domain="global" view="e00fe9ad2bd0a2803ff3894319da1508">e062c5fd2b58a2803ff3894319da1593</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2016-06-29 11:26:38</sys_created_on>
+            <sys_id>e862c5fd2b58a2803ff3894319da1593</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2016-06-29 11:26:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_price_1</element>
+            <list_id display_value="x_kasp_verify_retu_store_unverified_returns" element="NULL" name="x_kasp_verify_retu_store_unverified_returns" parent="NULL" relationship="NULL" sys_domain="global" view="e00fe9ad2bd0a2803ff3894319da1508">e062c5fd2b58a2803ff3894319da1593</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2016-06-29 11:26:38</sys_created_on>
+            <sys_id>2c62c5fd2b58a2803ff3894319da1593</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2016-06-29 11:26:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_price_6</element>
+            <list_id display_value="x_kasp_verify_retu_store_unverified_returns" element="NULL" name="x_kasp_verify_retu_store_unverified_returns" parent="NULL" relationship="NULL" sys_domain="global" view="e00fe9ad2bd0a2803ff3894319da1508">e062c5fd2b58a2803ff3894319da1593</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2016-06-29 11:26:38</sys_created_on>
+            <sys_id>6c62c5fd2b58a2803ff3894319da1593</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2016-06-29 11:26:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_price_10</element>
+            <list_id display_value="x_kasp_verify_retu_store_unverified_returns" element="NULL" name="x_kasp_verify_retu_store_unverified_returns" parent="NULL" relationship="NULL" sys_domain="global" view="e00fe9ad2bd0a2803ff3894319da1508">e062c5fd2b58a2803ff3894319da1593</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2016-06-29 11:26:38</sys_created_on>
+            <sys_id>ac62c5fd2b58a2803ff3894319da1593</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2016-06-29 11:26:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_choice_7</element>
+            <list_id display_value="x_kasp_verify_retu_store_unverified_returns" element="NULL" name="x_kasp_verify_retu_store_unverified_returns" parent="NULL" relationship="NULL" sys_domain="global" view="e00fe9ad2bd0a2803ff3894319da1508">e062c5fd2b58a2803ff3894319da1593</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2016-06-29 11:26:38</sys_created_on>
+            <sys_id>ec62c5fd2b58a2803ff3894319da1593</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2016-06-29 11:26:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_journal_9</element>
+            <list_id display_value="x_kasp_verify_retu_store_unverified_returns" element="NULL" name="x_kasp_verify_retu_store_unverified_returns" parent="NULL" relationship="NULL" sys_domain="global" view="e00fe9ad2bd0a2803ff3894319da1508">e062c5fd2b58a2803ff3894319da1593</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2016-06-29 11:26:38</sys_created_on>
+            <sys_id>2062c5fd2b58a2803ff3894319da1594</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2016-06-29 11:26:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_kasp_verify_retu_store_unverified_returns</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2016-06-29 11:26:38</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>e062c5fd2b58a2803ff3894319da1593</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_kasp_verify_retu_store_unverified_returns</sys_name>
+            <sys_package display_value="Verify Returns" source="x_kasp_verify_retu">31d815212b90a2803ff3894319da1521</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Verify Returns">31d815212b90a2803ff3894319da1521</sys_scope>
+            <sys_update_name>sys_ui_list_x_kasp_verify_retu_store_unverified_returns_RPTac0fe9ad2bd0a2803ff3894319da1507</sys_update_name>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2016-06-29 11:26:38</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rptac0fe9ad2bd0a2803ff3894319da1507" name="RPTac0fe9ad2bd0a2803ff3894319da1507">e00fe9ad2bd0a2803ff3894319da1508</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

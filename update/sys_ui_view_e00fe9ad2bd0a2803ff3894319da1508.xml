@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>RPTac0fe9ad2bd0a2803ff3894319da1507</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>danpal01</sys_created_by>
+        <sys_created_on>2016-06-28 20:03:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e00fe9ad2bd0a2803ff3894319da1508</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Verify Returns">31d815212b90a2803ff3894319da1521</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>danpal01</sys_updated_by>
+        <sys_updated_on>2016-06-28 20:03:07</sys_updated_on>
+        <title>Rptac0fe9ad2bd0a2803ff3894319da1507</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

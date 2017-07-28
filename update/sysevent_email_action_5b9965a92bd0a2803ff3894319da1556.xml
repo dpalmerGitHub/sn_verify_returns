@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>false</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <collection>x_kasp_verify_retu_store_unverified_returns</collection>
+        <condition table="x_kasp_verify_retu_store_unverified_returns">u_choice_2=Submitted^EQ<item endquery="false" field="u_choice_2" goto="false" newquery="false" operator="=" or="false" value="Submitted"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <description/>
+        <event_name/>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <group/>
+        <group_field/>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <list/>
+        <list_field/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Hello;&nbsp;</p>
+<p>Unverified E-Commerce Return Issue: ${number} has been assigned to: ${assignment_group}</p>
+<p>Please go to ${URI} for further details.</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Application Support Ticket Assigned</name>
+        <omit_watermark>false</omit_watermark>
+        <order/>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>assignment_group</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Unverified E-Commerce Return Issue:: ${number} has been assigned to Assignment Group(assignment_group): ${assignment_group}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>danpal01</sys_created_by>
+        <sys_created_on>2016-06-28 19:41:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>5b9965a92bd0a2803ff3894319da1556</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Application Support Ticket Assigned</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Verify Returns" source="x_kasp_verify_retu">31d815212b90a2803ff3894319da1521</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Verify Returns">31d815212b90a2803ff3894319da1521</sys_scope>
+        <sys_update_name>sysevent_email_action_5b9965a92bd0a2803ff3894319da1556</sys_update_name>
+        <sys_updated_by>danpal01</sys_updated_by>
+        <sys_updated_on>2016-06-28 20:33:50</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <user/>
+        <user_field/>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

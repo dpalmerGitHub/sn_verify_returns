@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Store Unverified Returns" max_length="40" name="x_kasp_verify_retu_store_unverified_returns" text_index="true" type="collection">
+        <element dependent="assignment_group" dependent_on_field="assignment_group" label="Assigned to:" max_length="32" name="assigned_to" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Close Notes:" max_length="4000" name="close_notes" type="string"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="serializer=com.glide.script.PriceXMLSerializer,omit_sys_original=true" label="Transaction Amount:" max_length="15" name="transaction_amount" type="price"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Credit Store for Return" max_length="40" name="u_choice_13" type="string">
+            <choice>
+                <element label="Choice 1" sequence="0" value="Choice 1"/>
+                <element label="Choice 2" sequence="1" value="Choice 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Not Submitted" label="Status" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element label="Not Submitted" sequence="0" value="Not Submitted"/>
+                <element label="Submitted" sequence="1" value="Submitted"/>
+                <element label="Work in Progress" sequence="2" value="Work in Progress"/>
+                <element label="Validated" sequence="3" value="Validated"/>
+                <element label="Rejected" sequence="4" value="Rejected"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Was an exchange performed?" mandatory="true" max_length="40" name="u_choice_7" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element label="E-Comm. Original Order Date" mandatory="true" max_length="40" name="u_glide_date_4" type="glide_date"/>
+        <element label="Return Date:" mandatory="true" max_length="40" name="u_glide_date_8" type="glide_date"/>
+        <element label="Work Notes" max_length="4000" name="u_journal_11" type="journal"/>
+        <element label="Request More Info:" max_length="4000" name="u_journal_12" type="journal"/>
+        <element label="Close Notes" max_length="4000" name="u_journal_14" type="journal"/>
+        <element label="Additional Information" max_length="4000" name="u_journal_9" type="journal"/>
+        <element attributes="serializer=com.glide.script.PriceXMLSerializer,omit_sys_original=true" label="Transaction Amount (w/tax):" max_length="15" name="u_price_1" type="price"/>
+        <element attributes="serializer=com.glide.script.PriceXMLSerializer,omit_sys_original=true" default="0" label="RAMS Price" max_length="15" name="u_price_10" type="price"/>
+        <element attributes="serializer=com.glide.script.PriceXMLSerializer,omit_sys_original=true" default="0" label="Transaction Amount (pre-tax):" max_length="15" name="u_price_6" type="price"/>
+        <element label="Store Number" mandatory="true" max_length="32" name="u_reference_1" reference="sys_user" reference_qual="active=true^u_user_type=1^EQ" reference_qual_condition="active=true^u_user_type=1^EQ" type="reference"/>
+        <element default="ed72e0c90a0a3c1c00c0fb7537146418" label="Assignment Group" max_length="32" name="u_reference_2" reference="sys_user_group" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element dependent="u_reference_2" dependent_on_field="u_reference_2" label="Assigned to" max_length="32" name="u_reference_3" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="E-Comm. Order Number" mandatory="true" max_length="40" name="u_string_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Return Transaction Number" mandatory="true" max_length="40" name="u_string_5" type="string"/>
+        <index name="index">
+            <element name="u_reference_2"/>
+        </index>
+        <index name="index2">
+            <element name="u_reference_3"/>
+        </index>
+        <index name="index3">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index4">
+            <element name="u_reference_1"/>
+        </index>
+        <index name="index5">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>

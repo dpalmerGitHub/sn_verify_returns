@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_report">
+    <sysauto_report action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <address_list/>
+        <condition/>
+        <conditional>false</conditional>
+        <group_list/>
+        <include_detail>false</include_detail>
+        <include_with/>
+        <name>Unverified Ecomm Returns</name>
+        <omit_if_no_records>true</omit_if_no_records>
+        <output_type>Excel</output_type>
+        <report display_value="Ecom Unverified Returns">86c2f53e2bbca6c03ff3894319da157e</report>
+        <report_body><![CDATA[<p>Hello;</p>
+<p>Please see the attached report: <strong>Store E-Commerce Returns Processed as Unverified</strong>. This report contains information in regards to e-commerce returns processed by stores as unverified. If more details are needed,  please email &#34;Application Support&#34; for further assistance and/or contact our Support Center at 201-295-7878. </p>
+<p>Thank you. </p>]]></report_body>
+        <report_title>Store E-Commerce Returns Processed as Unverified</report_title>
+        <run_as display_value="Daniel Palmer">0e057446877379402d2d098e59434d55</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2016-06-28 20:03:24</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>monthly</run_type>
+        <sys_class_name>sysauto_report</sys_class_name>
+        <sys_created_by>danpal01</sys_created_by>
+        <sys_created_on>2016-06-28 20:05:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bc1f25ed2bd0a2803ff3894319da15f0</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Unverified Ecomm Returns</sys_name>
+        <sys_package display_value="Verify Returns" source="x_kasp_verify_retu">31d815212b90a2803ff3894319da1521</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Verify Returns">31d815212b90a2803ff3894319da1521</sys_scope>
+        <sys_update_name>sysauto_report_bc1f25ed2bd0a2803ff3894319da15f0</sys_update_name>
+        <sys_updated_by>danpal01</sys_updated_by>
+        <sys_updated_on>2016-12-16 17:10:36</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+        <user_list>f9bfa7b000515c00779351e27127acff,f3c5b8820a0a3c1c013f899d769c9ee2,2cebf0daf102b08000720d46a2add36d,f3c4ad510a0a3c1c0053251492f0968f,0e057446877379402d2d098e59434d55</user_list>
+        <zip>false</zip>
+    </sysauto_report>
+</record_update>
